@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="logo">
+
+        <p>STAY FOCUS</p>
+
+    </header>
+
+    <div class="section">
+
+        
+            <div class="bloc1">
+
+                <div class="Name">
+                    <p class="first">BI ELIE</p>
+                    <p class="last"> KALOU</p>
+                </div>
+    
+                <div class="words" id="words">
+                    <p>Je suis une personne curieuse qui allie créativité, technique et réflexion. <br>Le piano est mon moyen d’expression, tandis que mes bases en HTML et CSS me permettent de structurer des idées visuelles. <br>Mon intérêt pour la théologie nourrit ma quête de sens et de compréhension concernant DIEU, le surnarturel et la création du monde. <br>J’ai obtenu mon BEPC en 2017 et mon BAC au collège privé mixte GUCHANROLAIN, puis j’ai poursuivi en Licence 1 en Science économique et gestion à l'Institut Universitaire Fred et Poppée en 2023. </p>
+                </div>
+
+                <div class="words2" id="words2">
+                    <p>Je suis passionné par plusieurs domaines qui me permettent d’exprimer ma créativité. <br>La création digitale me fascine pour sa capacité à transformer des idées en expériences visuelles. <br>La musique est mon moyen d'expression personnel, où je raconte des émotions à travers chaque note. <br>La photographie me permet de capturer des moments uniques et de raconter des histoires visuelles. <br>Enfin, la théologie nourrit ma réflexion sur les questions profondes de la vie et de la spiritualité. </p>
+                </div>
+    
+                <div class="boutons">
+    
+                    <div class="btn1" ><a onclick="changetext1()" id="btn1">A propos</a></div>
+                    <div class="btn2"><a onclick="changetext2()" id="btn2">Ma passion</a></div>
+    
+                </div>
+    
+            
+        </div>
+
+        <div class="slider">
+
+            <div class="bg" id="image">
+
+                
+               
+
+            </div>
+
+            
+            
+        </div>
+        
+    </div>
+
+    <footer>
+
+        <div class="copy">
+            <div class="copy1"><i class="las la-copyright"></i></div>
+            <div class="copy2"><p>Copyright 2025</p></div>
+            
+        </div>
+
+        <div class="reseaux">
+
+            <span class="item"><i class="lab la-facebook-f"></i></span>
+            <span class="item"><i class="lab la-twitter"></i></span>
+            <span class="item"><i class="lab la-instagram"></i></span>
+            
+        </div>
+
+    </footer>
+
+
+
+    <script>
+
+        var words = document.getElementById("words");
+        var words2 = document.getElementById("words2");
+        var btn1 = document.getElementById("btn1");
+        var btn2 = document.getElementById("btn2");
+        var image = document.getElementById("image");
+
+        function changetext2(){
+
+            words.style.display = "none" ;
+            words2.style.display = "block" ;
+
+            image.style.background = 'url("4_cleanup.jpg")';
+            image.style.backgroundRepeat = "no-repeat";
+            
+
+
+            btn2.style.color = "white" ;
+            btn2.style.backgroundColor = "black" ;
+            
+
+            btn1.style.color = "black" ;
+            btn1.style.backgroundColor = "rgba(128, 128, 128, 0.301)" ;
+
+
+        }
+
+        function changetext1(){
+
+            words.style.display = "block" ;
+            words2.style.display = "none" ;
+
+            image.style.background = 'url("3_cleanup.jpg")';
+            image.style.backgroundRepeat = "no-repeat";
+            
+
+            btn1.style.color = "white" ;
+            btn1.style.backgroundColor = "black" ;
+
+            btn2.style.color = "black" ;
+            btn2.style.backgroundColor = "rgba(128, 128, 128, 0.301)" ;
+
+
+        }
+    </script>
+
+</html>
