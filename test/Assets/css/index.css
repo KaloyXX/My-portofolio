@@ -1,0 +1,860 @@
+*{
+    font-family: Verdana ,"poppins", sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    height: 37px;
+    width:37px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    background: #191919ec;
+    color: white;
+    
+    padding: 15px 20px 15px 20px;
+    
+}
+
+.navbar{
+
+    margin-right: 100px;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.navbar a{
+    padding: 0px 50px 0px 0px;
+    cursor: pointer;
+    
+}
+
+.heart {
+
+    background: url('../img/chil8.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.336);
+    background-blend-mode: darken;
+    background-size: cover;
+    
+}
+
+
+
+.help{
+    color: #eca700;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 200px;
+}
+
+.text{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.text1{
+    margin-bottom: 10px;
+}
+
+.donbtn{
+    margin-top: 50px;
+    padding-bottom: 170px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.849);
+    
+}
+
+
+.donbtn a{
+
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #eca500cc;
+    cursor: pointer;
+    
+}
+
+.color{
+
+    display: flex;
+
+}
+
+.colors {
+    display: flex;
+    width: 50%;
+}
+
+.yellow{
+    padding: 50px 50px 50px 50px;
+    background: #eca700;
+    cursor: pointer;
+    width: 50%;
+
+    
+}
+
+.ytext{
+    display: block;
+}
+
+.ytext1 {
+  
+  width: 70%;
+
+}
+.ytext2 {
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    
+
+}
+
+.black{
+    padding: 50px 50px 50px 50px;
+    background: #191919;
+    color: white;
+    width: 50%;
+    
+    
+}
+
+.btext{
+    display: block;
+}
+
+
+.btext1 {
+    
+    width: 80%;
+  
+  }
+
+.btext2 {
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+.photo{
+    background: url('../img/main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-position: center;
+    
+}
+
+.section2{
+    margin-top: 60px;
+}
+
+.our{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    
+}
+.more{
+
+    
+}
+
+.photo2{
+    
+}
+
+.photo2 img{
+    height: 380px;
+    width: 380px;
+}
+
+.more{
+    display: flex;
+    justify-content: space-between;
+}
+
+.moret{
+    width: 100%;
+    padding-top: 40px;
+    background: #efefef;
+    padding-left: 80px;
+}
+
+
+.moret span{
+   
+}
+
+.mi{
+    font-size: 12px;
+    line-height: 2;
+    color: #646060;
+}
+
+.bloc{
+    margin-left: 25%;
+}
+.found{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.mission{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.plusbtn{
+  
+    color: rgba(255, 255, 255, 0.877);
+    padding-bottom: 30px;
+    
+
+    
+}
+
+.plusbtn a {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #eca700;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+}
+
+.bloc2{
+    width: 47%;
+
+}
+
+.bloc2 img{
+    width: 450px;
+    height: 360px;
+}
+
+.photo2{
+    margin-top: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(14, 9, 0, 0.349), rgba(109, 105, 99, 0.5)), 
+    url('../img/heart3.jpg');
+    width: 100%;
+    height: 200px;
+    background-position: center;
+}
+
+.allogo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-right: 20%;
+    width: 40%;
+    
+    margin-left: 25%;
+    color: rgba(255, 255, 255, 0.897);
+}
+
+.allogo i{
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    
+}
+.allogo p{
+    font-size: 15px;
+}
+
+.news {
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+.newtitle{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.newactions{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    
+    
+    
+}
+
+.newactions img{
+    width: 350px;
+    height: 250px;
+}
+
+.newactions .date{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.newactions .ntitle{
+
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.newactions .dev{
+    color: rgba(12, 12, 12, 0.842);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.newactions .nbtn{
+    
+    color: #eca700;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.act1{
+    width: 22%;
+}
+
+.act2{
+    width: 22%;
+}
+
+.act3{
+    width: 22%;
+}
+
+.act4{
+    width: 22%;
+}
+
+.newbtn{
+    margin-top: 80px;
+    text-align: center;
+    
+}
+
+.newbtn a{
+
+    border-radius: 17px;
+    background: #eca700;
+    color: rgba(255, 255, 255, 0.904);
+    padding: 12px 20px 12px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section3{
+    background: #191919;
+    margin-top: 40px;
+}
+
+.footbar {
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 70%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.footbtn a{
+    border: 2px solid #eca500e8; ;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+}
+
+.footbar i {
+    color: #eea800;
+}
+
+.mail a{
+    color: white;
+    text-decoration: none;
+}
+
+.number a {
+    color: white;
+    text-decoration: none;
+}
+
+.copy{
+    background: #eea800;
+    margin: auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.copy p{
+    text-align: center;
+
+}
+
+@media (max-width: 1560px){
+
+    .navbar{
+
+        margin-right: 100px;
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .colors {
+     
+        width: 80%;
+    }
+
+    .bloc2 img{
+
+        width: 450px;
+        height: 436px;
+    }
+
+    .newactions{
+
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        width: 93%;
+        margin-left: 40px;
+    }
+
+    .newbtn{
+
+        margin-top: 80px;
+
+    }
+
+    .section3{
+
+        margin-top: 40px;
+    }
+    
+    
+}
+
+@media (max-width: 550px) {
+
+    .help{
+       
+        font-size: 45px;
+        margin-bottom: 15px;
+        
+    }
+    
+    .text{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.781);
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    
+    .text1{
+        margin-bottom: 10px;
+    }
+    
+    .donbtn{
+        margin-top: 25px;
+        padding-bottom: 150px;
+    }
+    
+    
+    .donbtn a{
+        
+        font-size: 15px;
+        background: rgba(41,22,15,0.5);
+        
+    }
+
+    .section2{
+        margin-top: 25px;
+    }
+    .color{
+        display: block;
+    
+    }
+
+    .colors {
+        display: flex;
+        width: 100%;
+        
+    }
+    
+    .black {
+        padding: 50px 50px 50px 50px;
+        width: 50%;
+        margin: 0;
+    }
+
+    .photo{
+        height: 170px;
+        width: 550px;
+        
+    }
+
+    .bloc{
+        margin-left: 0;
+        margin-top: 30px;
+        
+    }
+
+    .our {
+        margin-left: 20px;
+    }
+
+    .more{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .moret{
+        
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .bloc2 img{
+        width: 550px;
+        height: 400px;
+    }
+    
+    .found{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .mi{
+        font-size: 14px;
+       
+    }
+
+    .bloc2{
+        width: 100%;
+    
+    }
+    
+
+    .mission{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .plusbtn a{
+        
+    }
+
+    .allogo{
+        display: flex;
+        width: 90%;
+        margin-left: 30px;
+    }
+    
+    
+    .allogo i{
+        font-size: 50px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        
+    }
+
+    .newtitle{
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        width: 15%;
+    }
+    
+    .newactions{
+        display: block;
+        margin: 0;
+        width: 550px;
+       
+        
+        
+        
+    }
+    
+    .newactions img{
+        width: 550px;
+        height: 300px;
+    }
+
+    .newactions .date{
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: gray;
+        margin-left: 10px;
+    }
+    
+    .newactions .ntitle{
+    
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    
+    .newactions .dev{
+        
+        margin-left: 10px;
+    }
+    
+    
+    
+    .newactions .nbtn{
+        
+
+        margin-left: 10px;
+    }
+    
+    .act1{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    .act2{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    .act3{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    .act4{
+        width: 80%;
+        
+    }
+      
+    .newbtn a{
+        background: #eca500e8;
+    }
+
+    .footbar {
+        display: block;
+        justify-content: space-between;
+        width: 550px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    
+    .footbtn {
+
+        margin-top: 20px;
+        text-align: center;
+        
+        
+    }
+    
+    .footbar i {
+        color: #eea800;
+    }
+    
+    .mail a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .number a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .copy{
+        background: #eea800;
+        margin: auto;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    
+    .copy p{
+        text-align: center;
+    
+    }
+
+    
+    .head{
+        display: block;
+       
+        line-height: 1.5;
+        
+    }
+
+    .logo img{
+        height: 37px;
+        width:37px;
+    }
+    
+    .navbar{
+    
+        margin-right: 10px;
+        width: 20%;
+        margin-top: 10px;
+    }
+    
+    .navbar a{
+        padding: 0px 10px 0px 0px;
+        cursor: pointer;
+        
+    }
+    
+
+
+}
+
+@media (max-width: 360px) {
+    
+    .head{
+        display: block;
+       
+        line-height: 1.5;
+        
+    }
+
+    .logo img{
+        height: 37px;
+        width:37px;
+    }
+    
+    .navbar{
+    
+        margin-right: 10px;
+        width: 20%;
+        margin-top: 10px;
+    }
+    
+    .navbar a{
+        padding: 0px 10px 0px 0px;
+        cursor: pointer;
+        
+    }
+    
+    .help{
+       
+        font-size: 37px;
+        margin-bottom: 15px;
+        
+    }
+    
+    .text{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.781);
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .photo{
+
+        width: 360px;     
+    }
+
+    .bloc{
+        margin-left: 0;  
+    }
+
+    .our {
+        margin-left: 0px;
+    }
+
+    .moret{
+        padding-left: 5px;
+    }
+    
+   
+    .allogo i{
+        font-size: 50px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        
+    }
+
+    .newtitle{
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 2px;
+        margin-bottom: 30px;
+        width: 15%;
+    }
+    
+    .newactions{
+        display: block;
+        margin: 0;
+        width: 550px;
+    
+    }
+    
+    .newactions img{
+        width: 360px;
+        height: 300px;
+    }
+    
+    
+    
+    
+    .newactions .dev{
+        width: 90%;
+        
+    }
+    
+    
+    .act1{
+        width: 360px;
+        margin-bottom: 20px;
+    }
+    
+    .act2{
+        width: 360px;
+        margin-bottom: 20px;
+    }
+    
+    .act3{
+        width: 360px;
+        margin-bottom: 20px;
+    }
+    
+    .act4{
+        width: 360px;
+        
+    }
+      
+    .footbtn {
+        width: 65%;
+        margin-top: 20px;
+
+        
+    }
+    
+    .footbar i {
+        color: #eea800;
+        font-size: 17px;
+    }
+    
+    
+}
